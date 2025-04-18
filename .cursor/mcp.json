@@ -1,0 +1,19 @@
+{
+    "mcpServers": {
+        "ragflow": {
+            "command": "uv",
+            "args": [
+                "--directory", "E:/Resources/ragflow_mcp_server",
+                "run", "main.py"
+            ],
+            "env": {
+                "RAGFLOW_URL": "http://172.20.31.71:8000",
+                "RAGFLOW_API_KEY": "ragflow-cwMWZiMjk2MDllYTExZjA4MmQ3MDI0Mm",
+                "RAGFLOW_DATASET_ID": "dcd4b87e085e11f08c2b0242ac120005",
+                "RAGFLOW_SIMILARITY_THRESHOLD": "0.3",
+                "RAGFLOW_VECTOR_SIMILARITY_WEIGHT": "0.5",
+                "RAGFLOW_LIMIT": "5"
+            }
+        }
+    }
+}
